@@ -1,15 +1,24 @@
-def maxValue(char)
-  value = (char.ord - 39) % 26
+def maxValueOf(input)
+  counts = Hash.new(0)
   
-  return [value + 1, 26-value].max
-end
-
-def maxValueOf (input)
-  list = []
-  
-  input.each_char { |c|
-    list.push(maxValue(c))
+  input.each_char {|char| 
+    counts[char] += 1
     }
   
-  print "El mayor puntaje para la palabra #{input} es #{list.sum}"
+  sortCounts = Array.new(0)
+  
+  counts.each {|key,val|
+    sortCounts.push(val)
+    }
+  
+  sortByAmount = sortCounts.sort.reverse!
+  
+  maxValue = 26
+  value = 0
+  sortByAmount.each {|amount|
+    value += amount*maxValue
+    maxValue -= 1
+    }
+  
+  puts value
 end
