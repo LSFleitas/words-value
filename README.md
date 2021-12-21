@@ -4,6 +4,8 @@ Código hecho en Ruby que responde a una consigna particular.
 
 Autor: Lucas Fleitas.
 
+----
+
 La consigna es la siguiente: 
 
 Supón que existe una forma secreta de ordenar las 26 letras del abecedario inglés, y de asignar un valor numérico a cada una dependiendo del lugar en que se encuentre. Siendo 26 las letras del abecedario inglés (A B C D E F G H I J K L M N O P Q R S T U V W X Y Z), el puntaje de cada letra puede ir de 1 a 26. En el caso de una palabra, su puntaje es la suma del puntaje de todas sus letras.
@@ -26,6 +28,8 @@ EOEOO = 128
 AGENDAPRO = 206
 
 FERROCARRIL = 258
+
+----
 
 COMENTARIOS:
 
