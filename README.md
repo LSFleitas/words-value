@@ -1,6 +1,6 @@
 # words-value
 
-Código hecho en Ruby que responde a una consigna particular.
+Código escrito en Ruby que responde a una consigna en particular.
 
 Autor: Lucas Fleitas.
 
@@ -28,23 +28,3 @@ EOEOO = 128
 AGENDAPRO = 206
 
 FERROCARRIL = 258
-
-----
-
-COMENTARIOS:
-
-Realicé el ejercicio desde el punto de vista de que, si bien no está definido el valor de cada letra, sólo existen dos maneras de valorarlas: 
-
-Primera forma: A=1, B=2, ..., Z=26 
-
-Segunda forma: A=26, B=25, ..., Z=1
-
-Por ejemplo, para la palabra "AB" solo existen 4 combinaciones de valores para cada una de las letras:
-
-A=1, B=2 --> Valor = 3
-
-A=1, B=25 --> Valor = 26
-
-A=26, B=2 --> Valor = 28
-
-A=26, B=25 --> Valor = 51 (MÁXIMO)
